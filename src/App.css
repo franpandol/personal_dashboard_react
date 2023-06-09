@@ -10,16 +10,16 @@ body {
 
 .left-column {
   flex: 1;
-  padding: 20px;
+  padding: 4px;
   background-color: #f2f2f2;
 }
 
 .right-column {
   flex: 1;
-  padding: 20px;
+  padding: 4px;
   background-color: #e8e8e8;
 }
 
 .left-column h1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
