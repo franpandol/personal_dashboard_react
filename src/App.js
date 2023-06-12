@@ -7,18 +7,25 @@ import ImageList from './components/images/ImageList';
 import StatsComponent from './components/stats/StatsComponent';
 import './App.css'; // Import the CSS file
 
+import BitcoinPriceTracker from './components/bitcoin/BitcoinPriceTracker';
+import BitcoinPriceBoard from './components/bitcoin/BitcoinPriceBoard';
+import VoiceCommandHandler from './components/voice/VoiceCommandHandler';
+import FlashcardApp from './components/flashcards/FlashcardApp';
+import ItalianPhrasePractice from './components/italian/ItalianPhrasePractice';
 function App() {
   return (
     <div className="App">
-      <div className="left-column">
-        <Notes />
-        <Weather />
-        <Reminder />
-      </div>
-      <div className="right-column">
-        <ImageList />
-        <Pomodoro />
-        <StatsComponent />
+      <BitcoinPriceBoard />
+      <div className="content-container">
+        <div className="left-column">
+          <FlashcardApp />
+        </div>
+        <div className="right-column">
+          <Notes />
+          <Reminder />
+          
+
+        </div>
       </div>
     </div>
   );
